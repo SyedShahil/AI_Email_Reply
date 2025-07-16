@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "EmailwriterApplication",
+            "request": "launch",
+            "mainClass": "com.email.emailwriter.EmailwriterApplication",
+            "projectName": "emailwriter",
+            "env": {
+             "GEMINI_URL": "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
+             "GEMINI_KEY": "AIzaSyB4ytKMmhNtBheKhYDTnH5beco5P1MO0TU"
+                }
+        }
+        
+    ]
+}
